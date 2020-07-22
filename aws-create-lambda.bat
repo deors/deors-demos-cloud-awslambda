@@ -5,7 +5,6 @@ aws lambda create-function ^
 --handler deors.demos.cloud.awslambda.HelloLambda ^
 --description "HelloLambda" ^
 --runtime java8 ^
---region eu-west-1 ^
 --timeout 30 ^
 --memory-size 1024 ^
 --publish
