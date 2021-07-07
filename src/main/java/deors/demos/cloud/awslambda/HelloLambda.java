@@ -30,7 +30,7 @@ public class HelloLambda implements RequestHandler<HelloRequest, HelloResponse> 
         if (request.getAge() >= 21) {
             allowedMessage = "you are allowed to use our services";
         } else {
-            allowedMessage = "only people 21 or above can use our services";
+            allowedMessage = "apologies but your request has been denied; only people 21 or above can use our services";
         }
 
         HelloResponse response = new HelloResponse();
